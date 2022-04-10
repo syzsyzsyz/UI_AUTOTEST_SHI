@@ -1,1 +1,1 @@
-# UI_AUTO_SHI pytohn   selenum  ddt  unittest html_report
+# UI_AUTO_SHI python   selenum  ddt  unittest html_report
