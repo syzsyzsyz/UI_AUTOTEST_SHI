@@ -1,0 +1,34 @@
+testinfo:
+      - id: test_login001
+        title: 登录测试
+        info: 打开小京东首页
+testcase:
+      - element_info: username
+        find_type: id
+        operate_type: send_keys
+        info: 输入手机号/用户名。邮箱
+      - element_info: password
+        find_type: id
+        operate_type: send_keys
+        info: 输入密码
+      - element_info: //input[@id="remember"]
+        find_type: xpath
+        operate_type: click
+        info: 请保存我这次的登录信息
+      - element_info: //input[@id="loginsubmit"]
+        find_type: xpath
+        operate_type: click
+        info: 单击立即登录按钮
+check:
+      - element_info: //span[@id="msg-error-text"]
+        find_type: xpath
+        info: 请输入账户名
+      - element_info: //span[@id="msg-error-text"]
+        find_type: xpath
+        info: 请输入密码
+      - element_info: //span[@id="msg-error-text"]
+        find_type: xpath
+        info: 用户名或密码错误
+      - element_info: //span[@id="msg-error-text"]
+        find_type: xpath
+        info: 登录成功
