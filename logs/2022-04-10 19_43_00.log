@@ -1,0 +1,14 @@
+[2022-04-10 19:43:01,511] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_login001.1 ; 测试点-> 用户名和密码为空登录
+[2022-04-10 19:43:12,413] [log.py|__console] [line:40] INFO    : 检查点-> 请输入账户名
+[2022-04-10 19:43:12,507] [log.py|__console] [line:40] INFO    : 异常登录，返回实际结果是->: 请输入账户名
+[2022-04-10 19:43:12,769] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_login001.2 ; 测试点-> 用户名为空登录
+[2022-04-10 19:43:23,486] [log.py|__console] [line:40] INFO    : 检查点-> 请输入账户名
+[2022-04-10 19:43:23,595] [log.py|__console] [line:40] INFO    : 异常登录，返回实际结果是->: 请输入账户名
+[2022-04-10 19:43:23,857] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_login001.3 ; 测试点-> 密码为空登录
+[2022-04-10 19:43:34,773] [log.py|__console] [line:40] INFO    : 检查点-> 请输入密码
+[2022-04-10 19:43:34,867] [log.py|__console] [line:40] INFO    : 异常登录，返回实际结果是->: 请输入密码
+[2022-04-10 19:43:35,144] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_login001.4 ; 测试点-> 用户名或密码不匹配
+[2022-04-10 19:43:45,992] [log.py|__console] [line:40] INFO    : 检查点-> 用户名或密码错误
+[2022-04-10 19:43:46,086] [log.py|__console] [line:40] INFO    : 异常登录，返回实际结果是->: 用户名或密码错误
+[2022-04-10 19:43:46,363] [log.py|__console] [line:40] INFO    : 当前执行测试用例ID-> test_login001.5 ; 测试点-> 用户名和密码正确
+[2022-04-10 19:45:28,661] [log.py|__console] [line:46] ERROR   : <public.page_execute.loginPage.login object at 0x0C546790>页面中未能找到('id', '//span[@id="msg-error-text"]')元素
