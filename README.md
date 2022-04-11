@@ -1,1 +1,1 @@
-# UI_AUTO_SHI python   selenum  ddt  unittest html_report
+# UI_AUTOTEST_SHI for python   selenum    ddt    unittest   html_reort
