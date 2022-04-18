@@ -42,4 +42,4 @@
     username : syz001
     password: 123456
   check :
-    - 登录成功
+    - 退出
