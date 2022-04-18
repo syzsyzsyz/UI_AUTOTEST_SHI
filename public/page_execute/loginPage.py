@@ -91,7 +91,7 @@ class login(Page):
     user_error_hint_loc = (By.XPATH,testData.get_CheckElementinfo(0))
     pwd_error_hint_loc = (By.XPATH, testData.get_CheckElementinfo(1))
     user_or_pwd_error_loc = (By.XPATH, testData.get_CheckElementinfo(2))
-    user_login_success_loc = (By.ID,testData.get_CheckElementinfo(3))
+    user_login_success_loc = (By.XPATH,testData.get_CheckElementinfo(3))
 
     #  用户名错误提示
     def user_error_hint(self):
@@ -105,5 +105,6 @@ class login(Page):
     # 登录成功用户名
     def user_login_success_hint(self):
         return self.find_element(*self.user_login_success_loc).text
+
 
 

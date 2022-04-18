@@ -127,4 +127,12 @@ class Page(object):
             return self.driver.switch_to_alert()
         except NoAlertPresentException as msg:
             log.error("查找alert弹出框异常-> {0}".format(msg))
+    def switch_url(self):
+        '''
+        跳转属性判断
+        '''
+        try:
+            return self.driver.current_url
+        except:
+            log.error("查找current_url异常")
 
