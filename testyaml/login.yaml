@@ -29,6 +29,6 @@ check:
       - element_info: //span[@id="msg-error-text"]
         find_type: xpath
         info: 用户名或密码错误
-      - element_info: //span[@id="msg-error-text"]
+      - element_info: //*[@id="login-info"]/a[2]
         find_type: xpath
-        info: 登录成功
+        info: 退出
